@@ -1,16 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:300,400,500,600,700');
-/**
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Rubrash - One Page Corporate HTML5 Template 
-* Author : rs-theme
-* Author URI : http://www.rstheme.com/
-*
-* -----------------------------------------------------------------------------
-*
-**/
+
 /* Table Of Content
 ---------------------------------------------------------
 01. General CSS
@@ -33,10 +23,13 @@
 18.Blog Details Page start here 
 
 
+
+
 --------------------------------------------------------*/
 /* -----------------------------------
     01. General CSS
 -------------------------------------*/
+
 html,
 body {
   font-size: 14px;
@@ -292,7 +285,7 @@ a.transparent-btn:hover {
   vertical-align: middle;
 }
 .white-color {
-  color: #fff !important;
+  color: rgb(63, 3, 3) !important;
 }
 /* ---------------------------
     03. Header Section 
@@ -927,7 +920,7 @@ a.transparent-btn:hover {
   font-weight: 700;
   position: relative;
   z-index: 9;
-  color: #444;
+  color: #35B7F9;
 }
 .full-screenbg .rs-video-content-wrap .sl-desc {
   font-size: 18px;
@@ -953,7 +946,7 @@ a.transparent-btn:hover {
 .full-screenbg .rs-video-content-wrap .work-position h3 {
   font-size: 40px;
   font-weight: 400;
-  color: #bbb;
+  color: #845FFF;
 }
 .full-screenbg .rs-video-content-wrap .work-position h3 {
   margin: 0;
@@ -2509,9 +2502,7 @@ a.transparent-btn:hover {
 18. Preloader CSS
 ---------------------------------------*/
 #loading {
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
   height: 100%;
   width: 100%;
   position: fixed;
